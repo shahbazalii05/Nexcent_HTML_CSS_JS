@@ -1,0 +1,251 @@
+@media (max-width: 1270px) {
+    .ls {
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .slider{
+        display: block;
+    }
+
+    .last p{
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1270px) {
+
+    .slidermenu{
+        display: none !important;
+    }
+
+}
+
+@media (max-width: 1045px) {
+    .regcontent p{
+        font-size: 45px;
+    }
+
+    .cards .carditems{
+        width: 300px;
+    }
+
+    .last p{
+        font-size: 22px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .reg{
+        padding: 20px 20px;
+    }
+
+    .regcontent{
+        width: 65%;
+        padding: 30px 20px;
+    }
+
+    .regcontent p{
+        font-size: 33px;
+    }
+
+    .page2 h1{
+        font-size: 25px;
+    }
+    .page2 p{
+        font-size: 15px;
+    }
+    .last p{
+        font-size: 30px;
+    }
+
+    .last p{
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .page3{
+        display: flex;
+        padding: 20px 20px;
+    }
+
+    .page3img{
+        display: none;
+    }
+
+    .page3text{
+        width: 100vw;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .page3text h1{
+        font-size: 25px;
+    }
+
+    .page3text p{
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .page3text button{
+        margin-top: 20px;
+    }
+
+    .baner{
+        flex-direction: column;
+        padding: 25px 60px;
+        text-align: center;
+    }
+
+    .baner .text{
+        width: 100%;
+        color: #263238;
+    }
+
+    .baner .stats{
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+
+    .stats .card{
+        margin-bottom: 30px;
+    }
+
+    .stats p{
+        font-size: 20px; 
+        font-weight: 500;
+    }
+    
+    .stats span{
+        margin-top: 10px;
+        font-weight: normal;
+    }
+
+    .baner2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 45px;
+    }
+
+    .baner2 .text{
+        width: 100%;
+    }
+
+    .baner2 .text p{
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 20px;
+        color: #263238;
+    }
+}
+@media (max-width: 650px) {
+    .logo{
+        padding: 20px 20px;
+    }
+
+    .slider{
+        padding: 20px 20px;
+    }
+
+    .reg{
+        padding: 20px 20px;
+    }
+
+    .regcontent{
+        width: 100%;
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    .regcontent p{
+        display: inline-block;
+        font-size: 29px;
+    }
+
+    .regcontent p{
+        margin-bottom: 10px;
+    }
+
+    .regcontent #p2{
+        margin-top: 10px;
+    }
+
+    .regpic{
+        display: none;
+    }
+
+    .page2 .font{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .font div{
+        margin-top: 20px;
+        width: 110px;
+        object-fit: cover;
+    }
+
+    .cards .carditems{
+        width: 250px;
+    }
+    
+    .carditems h1{
+        font-size: 23px;
+    }
+
+    .carditems p{
+        font-size: 12px;
+    }
+
+    .page4 h1{
+        font-size: 30px;
+    }
+
+    .page4 p{
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .page4cards{
+        padding: 20px 40px 0;
+    }
+
+    .page4cards .cart1{
+        width: 305px;
+        height: 305px;
+        margin: 0 10px;
+    }
+    .page4cards .cart2{
+        width: 305px;
+        height: 305px;
+        margin: 0 10px;
+    }
+    .page4cards .cart3{
+        width: 305px;
+        height: 305px;
+        margin: 0 10px;
+    }
+
+    .page4cards .cartinside{
+        margin: 200px auto 0;
+    }
+
+    .footer{
+        padding: 0px 20px 50px 30px;
+    }
+
+    .baner{
+        padding: 25px 30px;
+    }
+
+    .baner2 .img{
+        width: 250px;
+    }
+   
+}

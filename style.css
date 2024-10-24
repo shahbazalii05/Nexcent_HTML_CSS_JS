@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.header{
+    background-color: #F5F7FA;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    /* width: 230px; */
+    padding: 40px 60px;
+}
+
+.logo img{
+    height: auto;
+    width: 120px;
+    object-fit:cover;
+}
+
+.menu{
+    padding: 40px 60px;
+    display: flex;
+    gap: 60px;
+    color: black;
+}
+.menu li{
+    list-style: none;
+    font-weight: 500;
+}
+
+
+.ls{
+    padding: 30px 50px;
+    display: flex;
+}
+
+#login{
+    padding: 10px;
+    background-color: transparent;
+    color: #4CAF4F;
+    margin-right: 10px;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#signup{
+    height: 45px;
+    width: 75px;
+    padding: 10px;
+    background-color: #4caf4f;
+    color: white;
+    margin-right: 10px;
+    border: none;
+    font-weight: 500;
+    border-radius: 13px;
+    font-size: 1rem;
+}
+
+.slider{
+    padding: 40px 50px;
+    font-size: 1.3rem;
+    color: #4caf4f;
+    display: none;
+}
+
+.slidermenu{
+    display: none;
+    width: 100%;
+    padding: 25px 60px;
+    color: black;
+}
+
+.slidermenu li{
+    list-style: none;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.reg{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 40px 60px;
+}
+
+.regcontent{
+    width: 65%;
+    padding: 60px 20px;
+}
+.regcontent p{
+    font-size: 54px;
+    font-weight: 600;
+    color: #263238;
+    margin-bottom: 20px;
+}
+
+.regcontent #r1{
+    /* font-size: 54px; */
+    color: #4CAF4F;
+    font-weight: 600;
+}
+
+.regcontent #p2{
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.regcontent button{
+    margin-top: 15px;
+    height: 50px;
+    width: 130px;
+    padding: 10px;
+    background-color: #4caf4f;
+    color: white;
+    margin-right: 10px;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.regpic{
+    width: 40%;
+}
+
+.regpic img{
+    height: auto;
+    max-width: 100%;
+}
+
+.page2{
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.page2 h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.page2 p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+
+.page2 .font{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.font div{
+    margin-top: 30px;
+    width: 145px;
+    object-fit: cover;
+}
+
+.font div >img{
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.cards{
+    margin: 40px 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards .carditems{
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 15px -3px #0000001a,0 4px 6px -4px #0000001a;
+    padding: 10px 40px;
+    margin: 20px 20px;
+    width: 350px;
+    text-align: center;
+}
+
+.carditems img{
+    margin: 0 auto;
+    object-fit: cover;
+    height: auto;
+    width: 80px;
+}
+
+.carditems h1{
+    color: #263238;
+    font-size: 27px;
+    line-height: 39px;
+}
+
+.carditems p{
+    color: #000000;
+    font-size: 17px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.page3{
+    display: flex;
+    padding: 40px 60px;
+    margin: 30px 0 20px;
+}
+
+.page3img{
+    width: 40vw;
+    object-fit: cover;
+}
+
+.page3img img{
+    width: 100%;
+    height: auto;
+}
+
+.page3text{
+    /* width: 700px; */
+    width: 60vw;
+    padding-right: 28px;
+}
+
+.page3text h1{
+    font-size: 35px;
+    /* line-height: 50px; */
+    font-weight: 600;
+    color: #263238;
+}
+
+.page3text p{
+    margin-top: 10px;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.page3text button{
+    margin-top: 35px;
+    height: 50px;
+    /* width: 130px; */
+    padding: 10px 25px;
+    background-color: #4caf4f;
+    color: white;
+    margin-right: 10px;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+
+.baner{
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 90px;
+    width: 100%;
+}
+
+.baner .text{
+    width: 400px;
+    color: #263238;
+}
+
+.baner .text h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.baner .text span{
+    font-size: 35px;
+    color: #4CAF4F;
+    font-weight: 600;
+}
+
+.baner .text p{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.baner .stats{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stats img{
+    object-fit: contain;
+}
+
+.stats .card{
+    display: flex;
+    align-items: last baseline;
+}
+
+.stats p{
+    font-size: 24px; 
+    font-weight: 500;
+}
+
+.stats span{
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.baner2{
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 85px;
+    width: 100%;
+}
+
+.baner2 .img{
+    width: 300px;
+}
+
+.baner2 .img img{
+    max-width: 100%;
+    height: auto;
+}
+
+.baner2 .text{
+    width: 70%;
+}
+
+.baner2 .text p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #263238;
+}
+
+.baner2 .span{
+    color: #4caf4f ;
+    padding: 10px 0;
+}
+
+.baner2logo{
+    width: 90%;
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.baner2logo img{
+    object-fit: cover;
+    height: auto;
+    max-width: 100%;
+}
+
+.baner2logo .p{
+    color: #4caf4f ;
+}
+
+.page4{
+    text-align: center;
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+}
+.page4 h1{
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.page4 p{
+    width: 74%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.page4cards{
+    padding: 40px 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.page4cards .cart1{
+
+    width: 355px;
+    height: 345px;
+    margin: 0 10px;
+    background-image: url("img/page41.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+.page4cards .cart2{
+    width: 350px;
+    height: 345px;
+    margin: 0 10px;
+    background-image: url("img/page42.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+.page4cards .cart3{
+    width: 350px;
+    height: 345px;
+    margin: 0 10px;
+    background-image: url("img/page43.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+.page4cards .cartinside{
+    width: 92%;
+    margin: 250px auto 0;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px #0000001a,0 4px 6px -4px #0000001a;
+}
+
+.cartinside p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.cartinside span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #4CAF4F;
+}
+
+.last{
+    background-color: #F5F7FA;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px 0;
+}
+
+.last p{
+    width: 50%;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0 auto;
+    line-height: 80px;
+    color: #263238;
+}
+
+.last button{
+    margin-top: 20px;
+    height: 50px;
+    padding: 10px 25px;
+    background-color: #4caf4f;
+    color: white;
+    margin-right: 10px;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+
+.footer{
+    padding: 0px 60px 50px 80px;
+    width: 100%;
+    background-color: #263238;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer div{
+    padding-top: 40px ;
+    color: white;
+    width: 260px;
+    margin-right: 20px;
+}
+
+.footer p{
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.footer li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.flogo{
+    padding-right: 30px;
+    margin-right: 30px;
+}
+
+.flogo img{
+    margin-bottom: 20px;
+}
+
+.footer input{
+    background-color: #313f47;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
